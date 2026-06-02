@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support - GeoShape Explorer</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f7f8fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #5f6b7a;
+      --accent: #2563eb;
+      --border: #dde3ea;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #0f172a;
+        --surface: #111827;
+        --text: #e5e7eb;
+        --muted: #a7b0bf;
+        --accent: #60a5fa;
+        --border: #253044;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: clamp(24px, 5vw, 48px);
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin-top: 32px;
+      font-size: 1.25rem;
+    }
+
+    p,
+    ul,
+    ol {
+      margin: 14px 0 0;
+    }
+
+    ul,
+    ol {
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .meta {
+      color: var(--muted);
+      margin-top: 10px;
+    }
+
+    .summary {
+      border-left: 4px solid var(--accent);
+      margin-top: 28px;
+      padding: 14px 18px;
+      background: color-mix(in srgb, var(--accent) 8%, transparent);
+      border-radius: 0 8px 8px 0;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .button {
+      align-items: center;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--accent);
+      display: inline-flex;
+      font-weight: 600;
+      min-height: 44px;
+      padding: 10px 14px;
+      text-decoration: none;
+    }
+
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Support</h1>
+      <p class="meta">GeoShape Explorer<br>Last updated: June 2, 2026</p>
+
+      <p class="summary">
+        Need help with GeoShape Explorer? This page provides support information, troubleshooting steps, and a direct email support contact.
+      </p>
+
+      <div class="actions">
+        <a class="button" href="mailto:YDLIN527@gmail.com?subject=GeoShape%20Explorer%20Support">Email Support</a>
+        <a class="button" href="privacy.html">Privacy Policy</a>
+      </div>
+
+      <h2>About the App</h2>
+      <p>
+        GeoShape Explorer is an educational geometry app for iPhone and iPad. It helps users explore solid shapes through interactive 3D models, rotation, zooming, camera presets, dimension controls, edge lines, annotations, formulas, and surface net unfolding.
+      </p>
+
+      <h2>Common Questions</h2>
+      <ul>
+        <li><strong>The 3D model is hard to see.</strong> Try enabling edge lines, resetting the view, or switching to a front, top, side, or isometric camera preset.</li>
+        <li><strong>The model is rotating automatically.</strong> Turn off automatic rotation from the scene controls if you want to inspect a shape manually.</li>
+        <li><strong>The shape looks too transparent or too solid.</strong> Adjust display preferences in Settings, including face opacity and solid face color mode.</li>
+        <li><strong>The surface net animation is not at the expected position.</strong> Use the surface net controls to replay the unfolding animation or return to the solid shape.</li>
+        <li><strong>Learning progress looks incorrect.</strong> Progress is stored locally on the device. Reinstalling the app or resetting app data may remove local progress.</li>
+      </ul>
+
+      <h2>Troubleshooting</h2>
+      <ol>
+        <li>Make sure your device is running iOS or iPadOS 16.0 or later.</li>
+        <li>Close and reopen the app.</li>
+        <li>Try resetting the 3D view from the scene controls.</li>
+        <li>Check whether display preferences in Settings changed the default view style.</li>
+        <li>If the issue continues, contact support using the email link on this page.</li>
+      </ol>
+
+      <h2>Contact Support</h2>
+      <p>
+        When reporting an issue, please include the app version, device model, iOS or iPadOS version, and a short description of what happened. If possible, include the shape or lesson where the problem appeared and the steps needed to reproduce it.
+      </p>
+      <p>
+        Support requests can be sent to <a href="mailto:YDLIN527@gmail.com?subject=GeoShape%20Explorer%20Support">YDLIN527@gmail.com</a>.
+      </p>
+
+      <h2>Privacy</h2>
+      <p>
+        GeoShape Explorer does not collect personal data. Learning progress, explored shapes, and display preferences are stored locally on your device. Read the full <a href="privacy.html">Privacy Policy</a>.
+      </p>
+    </article>
+  </main>
+</body>
+</html>
